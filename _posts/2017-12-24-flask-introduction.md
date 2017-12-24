@@ -4,7 +4,7 @@ Flask是Python编写的一个轻量级Web应用框架。
 
 ## 安装
 安装过程十分简单，方式也很多，可以自由选择
-官网安装：[http://docs.jinkan.org/docs/flask/installation.html#installation](http://docs.jinkan.org/docs/flask/installation.html#installation)
+参考[官网安装](http://docs.jinkan.org/docs/flask/installation.html#installation)
 
 ## 入门Demo
 QuarkStart Demo
@@ -65,8 +65,14 @@ QuarkStart Demo
 附带的 logger 是一个标准日志类 Logger ，所以更多信息请查阅[logging](https://docs.python.org/3/library/logging.html)
 
 ## 部署
+使用Gunicorn部署Flask应用
+
+	$ pip install gunicorn
+	$ gunicorn -w 4 helloWorld:app
+
 
 ## 参考
 [快速入门](http://docs.jinkan.org/docs/flask/quickstart.html#quickstart)
+[Gunicorn官方Document](http://docs.gunicorn.org/en/stable/)
 
 
