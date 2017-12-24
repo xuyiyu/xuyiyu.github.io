@@ -70,6 +70,7 @@ QuarkStart Demo
 	$ pip install gunicorn
 	$ gunicorn -w 4 helloWorld:app
 
+在安装过程中往往选择virtualenv进行环境隔离进行安装。
 
 ## 参考
 [快速入门](http://docs.jinkan.org/docs/flask/quickstart.html#quickstart)
